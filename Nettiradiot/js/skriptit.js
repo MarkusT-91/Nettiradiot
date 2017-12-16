@@ -7,52 +7,52 @@ $(document).ready(function(){
     $("#nappi_helmi").click(function(){
         
         bluesrocklegends.pause();
-        $("#nappikuva_bluesrocklegends").attr("src","img/play.svg");
+        $("#nappikuva_bluesrocklegends").attr("src","img/play.png");
         bluesbaby.pause();
-        $("#nappikuva_bluesbaby").attr("src","img/play.svg");
+        $("#nappikuva_bluesbaby").attr("src","img/play.png");
 
 
         helmi.paused ? helmi.play() : helmi.pause();
 
         if(helmi.play) {
-            $("#nappikuva_helmi").attr("src","img/pause.svg");
+            $("#nappikuva_helmi").attr("src","img/pause.png");
         }
         if (helmi.paused) {
-            $("#nappikuva_helmi").attr("src","img/play.svg");
+            $("#nappikuva_helmi").attr("src","img/play.png");
         }
     });
 
     $("#nappi_bluesrocklegends").click(function(){
         
         bluesbaby.pause();
-        $("#nappikuva_bluesbaby").attr("src","img/play.svg");
+        $("#nappikuva_bluesbaby").attr("src","img/play.png");
         helmi.pause();
-        $("#nappikuva_helmi").attr("src","img/play.svg");
+        $("#nappikuva_helmi").attr("src","img/play.png");
 
         bluesrocklegends.paused ? bluesrocklegends.play() : bluesrocklegends.pause();
 
         if(bluesrocklegends.play) {
-            $("#nappikuva_bluesrocklegends").attr("src","img/pause.svg");
+            $("#nappikuva_bluesrocklegends").attr("src","img/pause.png");
         }
         if (bluesrocklegends.paused) {           
-            $("#nappikuva_bluesrocklegends").attr("src","img/play.svg");
+            $("#nappikuva_bluesrocklegends").attr("src","img/play.png");
         }
     });
 
     $("#nappi_bluesbaby").click(function(){
         
         helmi.pause();
-        $("#nappikuva_helmi").attr("src","img/play.svg");
+        $("#nappikuva_helmi").attr("src","img/play.png");
         bluesrocklegends.pause();
-        $("#nappikuva_bluesrocklegends").attr("src","img/play.svg");
+        $("#nappikuva_bluesrocklegends").attr("src","img/play.png");
 
         bluesbaby.paused ? bluesbaby.play() : bluesbaby.pause();
 
         if(bluesbaby.play) {
-            $("#nappikuva_bluesbaby").attr("src","img/pause.svg");
+            $("#nappikuva_bluesbaby").attr("src","img/pause.png");
         }
         if (bluesbaby.paused) {
-            $("#nappikuva_bluesbaby").attr("src","img/play.svg");
+            $("#nappikuva_bluesbaby").attr("src","img/play.png");
         }
     });
 
