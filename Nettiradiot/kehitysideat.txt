@@ -1,0 +1,6 @@
+- Voisi lis‰t‰ ja poistaa radioita
+	- tekstitiedosto mihin tallennettaisiin streamien osoite
+	- Vaatisi vain stream-osoitteen lis‰‰misen, varmaan pit‰isi sitten tarkistaa toimiiko koko strean
+- iconit kuvien tilalle
+- koodi j‰rkev‰mm‰ksi. Nettiradio ei jatkaisi siit‰ mihin se on laitettu pauselle vaan sitten suoraan nykyisest‰ kohdasta
+	- voisi siis skippailla kappaleita ilman ett‰ pit‰‰ koko sivu p‰ivitt‰‰

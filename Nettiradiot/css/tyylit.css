@@ -25,12 +25,3 @@ h1 {
     width: 150px;
     margin: auto;
 }
-
-#nappikuva_helmi, #nappikuva_bluesrocklegends, #nappikuva_bluesbaby {
-    display: block;
-    width: 76%;
-    padding: 12%;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
